@@ -55,3 +55,20 @@ else{
     Console.WriteLine("Ваше число нечетное");
 }*/
 //КОНЕЦ
+
+//ЗАДАЧА - 4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+//НАЧАЛО
+Console.WriteLine("Программа покажет четные числа от 1 до введенного вами. Введите целое число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+int current = 1;
+while(current <= num)
+{
+    if(current % 2 == 0){
+    Console.WriteLine(current + " ");
+    ++current;//current = current +1
+    }
+    else
+    {
+        ++current;
+    }
+};
