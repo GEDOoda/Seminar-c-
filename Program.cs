@@ -72,3 +72,19 @@ while(current <= num)
         ++current;
     }
 };
+
+// Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+//НАЧАЛО
+
+/*int CutNumber(int num)
+{
+    int tenNumber = num / 10;
+    int result = tenNumber % 10;
+    return result;
+}
+Console.WriteLine("Введите ваше целое трехзначное число: ");
+int finalNumber = Convert.ToInt32(Console.ReadLine());
+
+int finish = CutNumber(finalNumber);
+Console.WriteLine($"Вторя цифра {finish}");*/
+//Конец
