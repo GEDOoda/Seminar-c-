@@ -58,7 +58,7 @@ else{
 
 //ЗАДАЧА - 4. Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 //НАЧАЛО
-Console.WriteLine("Программа покажет четные числа от 1 до введенного вами. Введите целое число: ");
+/*Console.WriteLine("Программа покажет четные числа от 1 до введенного вами. Введите целое число: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int current = 1;
 while(current <= num)
@@ -71,7 +71,7 @@ while(current <= num)
     {
         ++current;
     }
-};
+};*/
 
 // Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 //НАЧАЛО
@@ -88,3 +88,21 @@ int finalNumber = Convert.ToInt32(Console.ReadLine());
 int finish = CutNumber(finalNumber);
 Console.WriteLine($"Вторя цифра {finish}");*/
 //Конец
+
+//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+//Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
+Console.WriteLine("Введите ваше целое число: ");
+int Number = Convert.ToInt32(Console.ReadLine());
+if(Number / 100 > 0)
+{
+while(Number > 1000)
+{
+Number = Number / 10;
+}
+Number = Number % 10;
+Console.WriteLine("Третья цифра:" + Number);
+}
+else 
+{
+    Console.WriteLine("Третьей цифры нет");
+}
