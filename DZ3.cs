@@ -32,3 +32,31 @@ Coub(operatorNumber);*/
 Console.WriteLine("Введите целое пятизначное число: ");
 int operatorNumber = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(Polindrom(operatorNumber));*/
+
+//Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 3D пространстве.
+
+/*double rast (double x1, double y1, double z1, double x2, double y2, double z2)
+{
+    double kvrast = (x2-x1)*(x2-x1) + (y2-y1)*(y2-y1) + (z2-z1)*(z2-z1);
+    double result = Math.Sqrt(kvrast);
+    return Math.Round (result,2);
+}
+Console.WriteLine("Напишите координату X первой точки: ");
+int x1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите координату Y первой точки: ");
+int y1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите координату Z первой точки: ");
+int z1 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите координату X второй точки: ");
+int x2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите координату Y второй точки: ");
+int y2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Напишите координату Z второй точки: ");
+int z2 = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine($"Расстояние между вдумя точками в 3D простастве ялвяется - {rast(x1,y1,z1,x2,y2,z2)}");*/
