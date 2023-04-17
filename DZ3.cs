@@ -60,3 +60,29 @@ Console.WriteLine("Напишите координату Z второй точк
 int z2 = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine($"Расстояние между вдумя точками в 3D простастве ялвяется - {rast(x1,y1,z1,x2,y2,z2)}");*/
+
+
+//Напишите программу, которая принимает на вход число N и проверяет, является ли оно палиндромом.
+
+/*string Polindrom(int arg)
+{
+    int num = 0;
+    int num2 = arg;
+    while(num2 > 0)
+    {
+        num = num * 10 + num2 % 10;
+        num2 = num2 / 10;
+    }
+    if(arg == num)
+    {
+        return "Число является палиндромом";
+    }
+    else
+    {
+        return "Число не является палиндромом";
+    }
+    
+}
+Console.WriteLine("Укажите целое число: ");
+int operatorNum = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(Polindrom(operatorNum));*/
