@@ -34,3 +34,22 @@ void array(int [] massiv)
 }
 array(myArray);
 */
+
+//Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
+
+/*
+void summa(int arg)
+{
+  int sum = 0;
+  while(arg > 0)
+  {
+   int arg2 = arg % 10;
+   sum = sum + arg2;
+   arg = arg / 10;
+  }
+  Console.WriteLine($"Сумма цифр в заданном числе равняется {sum}");
+}
+Console.WriteLine("Введите целое число: ");
+int operatorNum = Convert.ToInt32(Console.ReadLine());
+summa(operatorNum);
+*/
