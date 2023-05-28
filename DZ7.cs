@@ -164,7 +164,7 @@ ShowElement(myArray, operatorRows,operatorCols);*/
 //     {
 //       sum [j] = sum [j] + array[i,j];
 //     }
-//     sum[j] = sum[j] / array.GetLength(1);
+//     sum[j] = sum[j] / array.GetLength(0);
     
 //   }
 //   for (int i = 0; i < array.GetLength(0); i++)
