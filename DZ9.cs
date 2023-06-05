@@ -43,3 +43,27 @@
 //   }
 // }
 // Console.WriteLine($"Сумма натуральных чисел от числа {num1} до числа {num2} равна {SumNumbers(num1,num2)}");
+
+
+//Напишите программу вычисления функции Аккермана с помощью рекурсии. Даны два неотрицательных числа m и n.
+// Console.WriteLine("Введите ваше перове не отрицательное число: ");
+// int M = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите ваше второе не отрицательное число: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+
+// int Akkerman(int a,int b)
+// {
+//     if(a == 0)
+//     {
+//         return b + 1;
+//     }
+//     else if (b == 0)
+//     {
+//         return Akkerman(a -1, 1);
+//     }
+//     else
+//     {
+//         return Akkerman(a - 1, Akkerman(a, b - 1));
+//     }
+// }
+// Console.WriteLine($"Результат функции Аккермана для числа {M} и для числа {N} равен {Akkerman(M,N)}");
